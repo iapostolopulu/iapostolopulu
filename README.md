@@ -1,16 +1,20 @@
-### Hi there 👋
+#### Ahoy, I'm Ioanna - Computer Scientist (to be...) 🖖🏻
 
-<!--
-**iapostolopulu/iapostolopulu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-Here are some ideas to get you started:
+class ComputerScientist:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __init__(self):
+        self.name = "Ioanna Apostolopoulou"
+        self.role = "Computer Scientist"
+        self.language_spoken = ["el_GR", "en_US"]
+        self.hobbies = ["Coding", "Daydreaming", "Gym"]
+
+    def say_hi(self):
+        print("Heeyy, whatcha doing?")
+
+me = ComputerScientist()
+me.say_hi()
+```
